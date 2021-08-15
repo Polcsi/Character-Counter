@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard Events</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <h1>How To Create Textarea Character Counter</h1>
+            <textarea onclick="enableEdit()" onkeyup="keyPressed()" id="input-field" placeholder="Type something..."></textarea>
+            <p id="counter">
+                Character Counts: 0 / 500
+            </p>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
